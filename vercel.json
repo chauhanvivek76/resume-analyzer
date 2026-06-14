@@ -2,9 +2,6 @@
   "version": 2,
   "buildCommand": "npm run build",
   "outputDirectory": ".next",
-  "env": {
-    "NEXT_PUBLIC_API_URL": "@api_url"
-  },
   "framework": "nextjs",
   "functions": {
     "api/**/*.ts": {
